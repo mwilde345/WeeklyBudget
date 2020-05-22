@@ -110,4 +110,6 @@ jspm_packages
 # Serverless directories
 .serverless
 
-.json
+*.json
+!package.json
+!package-lock.json
